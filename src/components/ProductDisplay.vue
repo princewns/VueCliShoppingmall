@@ -54,8 +54,8 @@ export default {
                        '플라스틱 (코편)',
                        '나일론 끈'],
             variants : [
-                {color : 'white', image:'../assets/mask_white.jpg', stock : 10},
-                {color : 'black', image:'../assets/mask_black.jpg', stock : 0}
+                {color : 'white', image: require('@/assets/mask_white.jpg'), stock : 10},
+                {color : 'black', image: require('@/assets/mask_black.jpg'), stock : 0}
             ],
             //선택한 상품
             selection : 0,
